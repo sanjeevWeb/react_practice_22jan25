@@ -1,4 +1,5 @@
-import Accord from "./components/Accord"
+// import Accord from "./components/Accord"
+import ColorGenerator from "./components/randomColorGenerator/ColorGenerator"
 
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
   return (
     <>
       <div>
-        <Accord></Accord>
+        {/* <Accord></Accord> */}
+        <ColorGenerator></ColorGenerator>
       </div>
         
     </>
